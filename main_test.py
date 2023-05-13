@@ -19,7 +19,8 @@ def test_main_1():
 
     r = main.Rectangle(10, 20)
     print(f'Height: {r.height} \t Width: {r.width}')
-    assert True
+    assert r.height == 10
+    assert r.height == 20
 
     # regex_string = r'[\w,\W]*1'
     # regex_string += r'[\w,\W]*3'
