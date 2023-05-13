@@ -1,12 +1,15 @@
-def main():
-    mylist = [5, 10, 15, 25, 20, 55, 40]
-    #########################################
-    # Code your program here
-    #########################################
 
-    #########################################
-    # Do not delete the reutrn statement
-    return result
+class Rectangle:
+#########################################
+# Code your program here
+# Define the class Rectangle
+#########################################
+
+
+def main():
+
+    r = Rectangle(10, 20)
+    print(f'Height: {r.height} \t Width: {r.width}')
 
 
 if __name__ == '__main__':
